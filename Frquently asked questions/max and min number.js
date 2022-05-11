@@ -28,3 +28,6 @@ console.log(arrayLenght)
 
 let secMax = sortedArray[arrayLenght - 2]
 console.log(secMax)
+
+let secMax2 = sortedArray[arrayLenght - 2]
+console.log(secMax2)
