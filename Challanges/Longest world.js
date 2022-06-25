@@ -4,11 +4,11 @@
     // console.log(words)
 
     // for longestword
-    let lgWord = '';
+    let lgWord = "";
 
     // loop throw words for finding longest word and return longest word
     for (let word of words) {
-        if(word.lenght > lgWord.length){
+        if(word.length > lgWord.length){
            lgWord = word ;
         }
     }
