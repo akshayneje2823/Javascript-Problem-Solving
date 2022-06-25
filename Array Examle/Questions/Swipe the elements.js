@@ -12,6 +12,7 @@ console.log(b)
 var c = 10;
 var d = 23;
 
+
 [c,d]=[d,c]
 console.log(c)
 console.log(d)
