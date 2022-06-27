@@ -8,5 +8,5 @@ function* generatorFunction(){
 const generator = generatorFunction()
 console.log(generator)
 console.log(generator.next())
-console.log(generator.next())
-console.log(generator.next())
+// console.log(generator.next())
+// console.log(generator.next())
