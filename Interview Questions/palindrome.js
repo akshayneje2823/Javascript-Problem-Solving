@@ -1,25 +1,27 @@
-// var string = "NaN";
-// // var string = "Number";
+// // var string = "madam";
+// var string = "Number";
 
-// function checkPalindrome(string){
-//     var msg;
+// function checkPalindrome(string) {
+//     var ans;
 //     var length = string.length;
 //     for (let i = 0; i < length % 2; i++) {
 
-//         if (string[i] != string[length -1 - i]) {
-//             msg = string + " is not palindrome"
-//         }else{
-//             msg = string + " is palindrome";
+
+//         if (string[i] != string[length - 1 - i]) {
+
+//             ans = string + " is not palindrome"
+//         } else {
+//             ans = string + " is palindrome";
 
 //         }
-//         return msg
+//         return ans
 
 //     }
 // }
 // console.log(checkPalindrome(string))
 
 // with Number
-let num = 6635366;
+// let num = 6635366;
 
 function isPalindrome(x) {
     let msg;
@@ -31,25 +33,25 @@ function isPalindrome(x) {
     }
     return msg
 }
-// console.log(isPalindrome(num))
+console.log(isPalindrome(num))
 
-let number = 99;
+// let number = 99;
 
-function isPal(x) {
-    var reveredStr = '';
-    var xStr = x.toString();
-    var ans;
-    for (let i of xStr) {
-        reveredStr = i + reveredStr
-    }
-    if (reveredStr === xStr) {
-        ans = x + " Is A Palindrome Number."
-    } else {
-        ans = x + " Is Not A Palindrome Number."
-    }
-    return ans;
-};
+// function isPal(x) {
+//     var reveredStr = '';
+//     var xStr = x.toString();
+//     var ans;
+//     for (let i of xStr) {
+//         reveredStr = i + reveredStr
+//     }
+//     if (reveredStr === xStr) {
+//         ans = x + " Is A Palindrome Number."
+//     } else {
+//         ans = x + " Is Not A Palindrome Number."
+//     }
+//     return ans;
+// };
 
-console.log(isPal(number))
+// console.log(isPal(number))
 
 
