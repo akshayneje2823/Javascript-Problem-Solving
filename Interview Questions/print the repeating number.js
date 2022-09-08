@@ -5,10 +5,10 @@ let length = text.length;
 let object = { };
 
 for (let i = 0; i < length; i++) {
-    let ch = text[i];
+    let allAcharachters = text[i];
     // console.log(ch)
 
-    object[ch] = object[ch] ? object[ch] + 1 :1
+    object[allAcharachters] = object[allAcharachters] ? object[allAcharachters] + 1 :1
     // console.log(object[ch])
 }
 
