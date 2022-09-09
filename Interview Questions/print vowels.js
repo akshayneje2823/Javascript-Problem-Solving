@@ -32,16 +32,18 @@ let employees = [
     {
         id: 111, name: "karan"
     },
-    
+
 ];
 
 employees.map(emp => {
-    if (!emp.name.startsWith("A") ||
+    if (!(
+        emp.name.startsWith("A") ||
         emp.name.startsWith("E") ||
         emp.name.startsWith("I") ||
         emp.name.startsWith("O") ||
-        emp.name.startsWith("U") 
-    ){
+        emp.name.startsWith("U")
+        )
+    ) {
         console.log(emp.name)
     }
 })
