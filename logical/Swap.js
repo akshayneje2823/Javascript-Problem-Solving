@@ -25,4 +25,4 @@ var c = 22
 var d = 33
 c = (c*d)/(d=c)
 console.log(c)
- console.log(d) 
+console.log(d) 
